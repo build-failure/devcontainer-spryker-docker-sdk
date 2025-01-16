@@ -2,18 +2,21 @@ name: 'build'
 on: # rebuild any PRs and main branch changes
   pull_request:
     paths-ignore:
-      - 'README.md'
-      - '.gitignore'
+      - '**/*.md'
+      - '**/*.gitignore'
   push:
     branches:
       - main
     paths-ignore:
-      - 'README.md'
-      - '.gitignore'
+      - '**/*.md'
+      - '**/*.gitignore'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
 
       - name: Checkout (GitHub)
