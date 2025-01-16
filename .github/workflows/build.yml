@@ -1,9 +1,15 @@
 name: 'build' 
 on: # rebuild any PRs and main branch changes
   pull_request:
+    paths-ignore:
+      - 'README.md'
+      - '.gitignore'
   push:
     branches:
       - main
+    paths-ignore:
+      - 'README.md'
+      - '.gitignore'
 
 jobs:
   build:

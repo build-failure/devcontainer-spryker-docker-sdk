@@ -1,4 +1,4 @@
-[![Build](https://github.com/build-failure/devcontainer-spryker-docker-sdk/actions/workflows/build.yml)](https://github.com/build-failure/devcontainer-spryker-docker-sdk/actions/workflows/build.yml/badge.svg)
+[![Build](https://github.com/build-failure/devcontainer-spryker-docker-sdk/actions/workflows/build.yml/badge.svg)](https://github.com/build-failure/devcontainer-spryker-docker-sdk/actions/workflows/build.yml)
 
 # Devcontainer for Spryker Docker SDK
 
