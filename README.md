@@ -4,7 +4,7 @@
 
 This repository provides a pre-configured development environment for the Spryker Docker SDK using [Dev Containers](https://containers.dev/) feature. It streamlines the setup process, allowing developers to focus on building and testing Spryker applications without manual environment configuration.
 
-Check embedded [Dev Containers](https://containers.dev/) feature [.devcontainer/features/spryker-docker-sdk](.devcontainer/features/spryker-docker-sdk) for config details of Spryker Docker SDK.
+Check embedded [Dev Containers](https://containers.dev/) feature [.github/.devcontainer/features/spryker-docker-sdk](.github/.devcontainer/features/spryker-docker-sdk) for config details of Spryker Docker SDK.
 
 ## Features
 - **Pre-configured Environment**: Automatically sets up all necessary dependencies and tools required for Spryker development.
