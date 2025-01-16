@@ -1,3 +1,5 @@
+![Build](https://github.com/build-failure/devcontainer-spryker-docker-sdk/actions/workflows/build/badge.svg)
+
 # Devcontainer for Spryker Docker SDK
 
 This repository provides a pre-configured development environment for the Spryker Docker SDK using [Dev Containers](https://containers.dev/) feature. It streamlines the setup process, allowing developers to focus on building and testing Spryker applications without manual environment configuration.
