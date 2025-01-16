@@ -23,6 +23,6 @@ jobs:
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/build-failure/devcontainer-spryker-docker-sdk:${{ github.ref }}
-          cacheFrom: ghcr.io/build-failure/devcontainer-spryker-docker-sdk:${{ github.ref }}
+          imageName: ghcr.io/build-failure/devcontainer-spryker-docker-sdk:${{ github.ref_name }}"
+          cacheFrom: ghcr.io/build-failure/devcontainer-spryker-docker-sdk:${{ github.ref_name }}"
           push: always
