@@ -1,10 +1,12 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/docker-in-docker
 {
-	"name": "Docker in Docker",
+	"name": "Spryker Docker SDK",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 
+	"workspaceFolder": "/workspaces/devcontainer-spryker-docker-sdk",
+   
 	"features": {
 		"ghcr.io/devcontainers/features/php:1": {
 			"version": "8.2.0"
@@ -17,15 +19,16 @@
 		}
 		,
 		"./features/spryker-docker-sdk": { 
-			"version" : "1.63.0"
+			"version" : "1.63.0",
+			"workspaceFolder": "/workspaces/devcontainer-spryker-docker-sdk"
 		}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "docker --version",
+	"postCreateCommand": "ln -fsn /opt/spryker-docker-sdk /workspaces/devcontainer-spryker-docker-sdk/docker"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
